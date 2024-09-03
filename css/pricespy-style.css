@@ -1,0 +1,54 @@
+div.prspy-price-div {
+    font-size: 15px;
+}
+tr.prspy-atv-prices, tr.prspy-details{
+    display: none;
+}
+td.prspy-price{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+td.prspy-price .prspy-price-delivery{
+    font-weight: normal;
+    font-size: 0.65em;
+}
+tr.prspy-details{
+    font-size: 0.8em;
+}
+.prspy-arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.prspy-arrow.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.prspy-arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.prspy-price-div .prspy-main-logo img{
+    max-width: 85px;
+}
+.prspy-company-name{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 0.8em;
+}
+div.prspy-price-div .prspy-btn .button {
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1;
+    background-color: #61ce70;
+    padding: 10px 15px;
+}
+.prspy-btn .button:hover{
+    /*background-color: #ce1c24;*/
+}
+.prspy-price-div table, .prspy-price-div td, .prspy-price-div th {
+    /*border: 1px solid rgba(0,0,0,.1);*/
+    border-right: none;
+    border-left: none;
+}
